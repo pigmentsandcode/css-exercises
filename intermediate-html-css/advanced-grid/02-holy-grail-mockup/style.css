@@ -22,12 +22,12 @@
   background-color: #393f4d;
   grid-column: 1 / span 2;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
 }
 
 .logo {
-  text-align: left;
+  text-align: start;
 }
 
 .menu ul {
