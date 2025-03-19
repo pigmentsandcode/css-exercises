@@ -49,6 +49,12 @@
   gap: 50px;
 }
 
+.side-content,
+.photo {
+  display: grid;
+  align-items: center;
+}
+
 .sidebar .photo {
   background-color: white;
   color: black;
@@ -66,6 +72,13 @@
 
 .nav {
   background-color: #c50208;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 2 / 3;
+  list-style: none;
 }
 
 .nav ul li {
